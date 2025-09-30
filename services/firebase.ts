@@ -8,12 +8,13 @@ import { getAuth } from "firebase/auth";
 
 // A configuração do Firebase do seu aplicativo da web
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_PROJETO.firebaseapp.com",
-  projectId: "SEU_PROJETO_ID",
-  storageBucket: "SEU_PROJETO.appspot.com",
-  messagingSenderId: "SEU_SENDER_ID",
-  appId: "SEU_APP_ID"
+  apiKey: "AIzaSyDkfqg7GlqzTNHLUomJ5TCaQgM40qMLMEg",
+  authDomain: "intellitrade-beta-blue-ba2ec.firebaseapp.com",
+  projectId: "intellitrade-beta-blue-ba2ec",
+  storageBucket: "intellitrade-beta-blue-ba2ec.firebasestorage.app",
+  messagingSenderId: "125413376169",
+  appId: "1:125413376169:web:673c9fabd6299af27c69b8"
+  measurementId: "G-EVN5N56J1X"
 };
 
 // Inicialize o Firebase
