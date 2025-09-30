@@ -1,0 +1,8 @@
+{
+  "name": "IntelliTrade BR - Global Import & Logistics Management System",
+  "description": "A comprehensive Import Management System for Brazilian foreign trade operations. It centralizes information, tracks the entire import process from order to delivery, and leverages AI for intelligent data extraction and predictive analytics.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}

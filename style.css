@@ -1,0 +1,88 @@
+/* Import Google Fonts as specified */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500,0,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i&display=swap');
+
+/* Apply base styles to the application */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* Base styles for a clean, professional look */
+:root {
+  --brand-primary: #003B71;
+  --brand-secondary: #2D3748;
+  --brand-accent: #0060B2;
+  --brand-highlight: #FFBF00;
+  --brand-light: #F3F4F6;
+  --brand-danger: #D9000D;
+}
+
+/* Ensure high contrast for readability */
+.dark body {
+    color: var(--brand-light);
+}
+
+body {
+    color: var(--brand-secondary);
+}
+
+.high-contrast-text {
+    color: black;
+}
+.dark .high-contrast-text {
+    color: white;
+}
+
+/* Custom Animations */
+@keyframes fade-in-down {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animate-fade-in-down {
+    animation: fade-in-down 0.3s ease-out forwards;
+}
+
+@keyframes scale-in {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.animate-scale-in {
+    animation: scale-in 0.2s ease-out forwards;
+}
+
+@keyframes pulse-high-priority {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .7;
+    }
+}
+.animate-pulse-high-priority {
+    animation: pulse-high-priority 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+
+/* Custom Loader Style */
+.loader {
+    border-top-color: var(--brand-primary);
+}
+.dark .loader {
+    border-top-color: var(--brand-highlight);
+}
