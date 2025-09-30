@@ -105,7 +105,7 @@ export const mockProcedures: Procedure[] = [
         steps: [
             { id: 'step-f1', text: 'Navigate to "Broker Numerário" under Financial menu.' },
             { id: 'step-f2', text: 'Enter the informed value from the broker.' },
-            { id: 'step-f3', text: 'Set the approval status.'
+            { id: 'step-f3', text: 'Set the approval status.' },
         ],
         documents: []
     }
